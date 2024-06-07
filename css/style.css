@@ -283,9 +283,7 @@ input {
 }
 
 
-.card-txt {
-    list-style: 5px;
-}
+
 
 
 .card-title {
@@ -797,9 +795,11 @@ input {
 
     }
 
-    .button-rechercher p {
+    .button-rechercher .button-text {
         display: none;
     }
+
+
 
     .button-rechercher img {
         display: inline-block;
