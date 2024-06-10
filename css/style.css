@@ -48,6 +48,7 @@ body {
     height: 19px;
     width: 61px;
     padding: 0 50px;
+    padding-top: 7PX;
 
 }
 
@@ -68,6 +69,7 @@ body {
     margin-left: 30PX;
     height: 100%;
     align-content: center;
+    padding-top: 7px;
 
 
 
@@ -562,9 +564,12 @@ input {
 
     .header-container img {
         height: max-content;
+        padding-top: 7px;
     }
 
-
+    .header-nav a {
+        padding-top: 7px;
+    }
 
     .main-container {
         margin-top: 20px;
@@ -653,9 +658,6 @@ input {
     .Activite {}
 
 
-    .card-activite {}
-
-
     .card-activite img {
         height: 200px;
 
@@ -724,10 +726,11 @@ input {
 
 
     .header-nav {
-
         width: 100%;
         justify-content: space-evenly;
         height: 50px;
+        margin-top: 15Px;
+        padding-right: 0px;
     }
 
     .header-nav :hover {
@@ -745,6 +748,7 @@ input {
         flex: 1;
         text-align: center;
         padding: 0px;
+        margin-left: 0;
     }
 
 
@@ -760,18 +764,20 @@ input {
 
     .header-container img {
         object-fit: contain;
-
-        width: 15%;
+        width: 21%;
+        margin-top: 20PX;
     }
 
     .Vavcance-de-reves p {
         margin-top: 0;
+        margin-left: 20px;
 
 
     }
 
     .Vavcance-de-reves h2 {
         margin-bottom: 10px;
+        margin-left: 20px;
     }
 
     input {
@@ -951,6 +957,7 @@ input {
 
     .title-activite {
         margin-left: 35px;
+        margin-bottom: 30px;
 
     }
 
