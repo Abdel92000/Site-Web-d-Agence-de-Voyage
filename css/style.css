@@ -48,7 +48,7 @@ body {
     height: 19px;
     width: 61px;
     padding: 0 50px;
-    padding-top: 7PX;
+    padding-top: 25PX;
 
 }
 
@@ -103,11 +103,19 @@ body {
 a {
     color: inherit;
     text-decoration: none;
+
 }
 
-.Vavcance-de-reves {}
+
 
 /****** formulaire de recherche ***********/
+
+
+.title-filter {
+    font-weight: bold;
+    color: #000;
+
+}
 
 .barre-rechercher {
     display: flex;
@@ -158,16 +166,22 @@ form {
 
 input {
     border-width: 0;
-
     margin-top: 1px;
     margin-bottom: 1px;
-
     font-weight: bold;
+    padding-left: 15px;
+
 }
 
 
 
 
+
+input::placeholder {
+    font-weight: bold;
+    color: #000;
+
+}
 
 
 
@@ -205,6 +219,9 @@ input {
 
 /****** barre filtres  ***********/
 
+.title-filter {
+    color: black;
+}
 
 .barre-filter {
 
@@ -232,18 +249,28 @@ input {
     border-color: #D9D9D9;
     align-items: center;
     overflow: hidden;
-    padding: 10px;
     display: flex;
     flex-direction: row;
-    margin-right: 20px;
-    padding-top: 6px;
-    padding-bottom: 6px;
+    margin-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10PX;
+    padding-left: 15px;
+    padding-right: 15px;
 
+
+}
+
+
+.style-element-filter p {
+
+    font-size: 16px;
+    color: red;
 
 }
 
 .style-element-filter img {
     margin-right: 10px;
+    height: 18PX;
 
 }
 
@@ -274,7 +301,7 @@ input {
 
 
 .info-contenair p {
-    font-size: 16px;
+    font-size: 15px;
 
 }
 
@@ -298,6 +325,7 @@ input {
 .card-subtitle {
     margin-left: 5px;
     margin-bottom: 5px;
+    font-size: 14px
 }
 
 
@@ -359,7 +387,7 @@ input {
     border-radius: 20px;
     padding: 5px;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    height: 224px;
+    height: 204px;
     width: 30%;
     box-shadow: 0px 0px 8px 2px rgb(218, 218, 218);
 
@@ -370,13 +398,14 @@ input {
 .card-hebergement .card-title {
     margin-top: 0px;
 
+
 }
 
 .card-hebergement img {
     object-fit: cover;
-    height: 60%;
+    height: 109px;
     width: 100%;
-    border-radius: 10% 10% 0% 0%;
+    border-radius: 15px 15Px 0% 0%;
     margin-bottom: 4px;
 
 }
@@ -447,12 +476,12 @@ input {
 .Afficher-plus-section {
 
     padding: 0px;
+    font-size: 18px;
 
 }
 
 
 
-.Afficher-plus-section h3 {}
 
 
 
@@ -605,6 +634,7 @@ input {
     .title-filter {
         width: 100%;
 
+
     }
 
 
@@ -641,7 +671,7 @@ input {
     }
 
     .populaires-cards .card-title {
-        font-size: 14px;
+        font-size: 18px;
     }
 
     .populaires-cards .card-subtitle {
@@ -655,7 +685,7 @@ input {
 
 
 
-    .Activite {}
+
 
 
     .card-activite img {
@@ -796,7 +826,7 @@ input {
         height: auto;
         padding: 12px;
         position: absolute;
-        left: 88%;
+        left: 86%;
         box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 23%);
 
     }
@@ -829,17 +859,11 @@ input {
 
 
     .barre-filter {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        gap: 20px;
-        margin-bottom: 20px;
-
-
-
+        margin-left: 12px;
 
     }
+
+
 
     .style-element-filter {
         margin: 0;
@@ -851,6 +875,8 @@ input {
 
     .barre-filter a {
         min-width: 40%;
+        margin-bottom: 16PX;
+        margin-left: 9PX;
     }
 
 
@@ -897,9 +923,7 @@ input {
     .hebergements-and-populaires .populaires,
     .hebergements-and-populaires .hebergements {
         background-color: transparent;
-        padding-left: 40px;
-        padding-right: 40px;
-
+        padding: 12px;
 
     }
 
@@ -1025,7 +1049,7 @@ input {
 
 
     body {
-        max-width: 144px;
+        max-width: 1444px;
         border: solid 16px rgb(192, 43, 43);
     }
 
