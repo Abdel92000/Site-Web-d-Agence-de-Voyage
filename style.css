@@ -19,7 +19,10 @@
 
 .fa-solid {
     color: var(--main-color);
+
 }
+
+.fa-solid .fa-heart {}
 
 body {
     display: flex;
@@ -241,6 +244,21 @@ input::placeholder {
 .barre-filter p {
     margin-right: 20px;
 }
+
+
+
+.body-filter {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
 
 .style-element-filter {
 
@@ -539,14 +557,15 @@ input::placeholder {
 
 
 .container-footer {
-    display: flex;
-    flex-direction: row;
+
+    display: grid;
+
     justify-content: flex-start;
     justify-content: space-between;
     margin-right: 410px;
     margin-top: 100px;
     padding-left: 20PX;
-
+    grid-template-columns: 50% 48% 13%;
 }
 
 .container-footer h3 {
@@ -804,11 +823,13 @@ input::placeholder {
     .Vavcance-de-reves h2 {
         margin-bottom: 10px;
         margin-left: 20px;
+        font-size: 21PX;
     }
 
     input {
         width: 87%;
         padding-left: 20px;
+        font-size: 17px;
     }
 
     .formulaire {
@@ -859,20 +880,28 @@ input::placeholder {
 
     }
 
-
+    .body-filter {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
 
     .style-element-filter {
-        margin: 0;
+
         height: 30px;
-        justify-content: center;
+
         padding-right: 0;
-        padding-left: 0;
+        padding-left: 9px;
     }
 
     .barre-filter a {
-        min-width: 40%;
+
         margin-bottom: 16PX;
         margin-left: 9PX;
+        flex: 1;
+
+
+
+
     }
 
 
