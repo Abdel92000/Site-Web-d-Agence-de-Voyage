@@ -22,7 +22,24 @@
 
 }
 
-.fa-solid .fa-heart {}
+.fa-person {
+    margin-right: 10px;
+}
+
+.fa-money-bill-wave {
+    margin-right: 10px;
+
+}
+
+.fa-heart {
+    margin-right: 10px;
+
+}
+
+.fa-fire {
+    margin-right: 10px;
+
+}
 
 body {
     display: flex;
@@ -328,7 +345,7 @@ input::placeholder {
 
 .section-title {
     margin: 0;
-    font-size: 22px;
+    font-size: 20px;
 }
 
 
@@ -453,6 +470,8 @@ input::placeholder {
     background-color: white;
     border-radius: 20px;
     padding: 4px;
+
+    width: 100%;
 }
 
 .populaires-cards img {
@@ -568,6 +587,14 @@ input::placeholder {
     grid-template-columns: 50% 48% 13%;
 }
 
+/*
+.container-footer {
+    display: flex;
+    gap: 20%;
+}
+
+*/
+
 .container-footer h3 {
     margin-left: 0px;
 }
@@ -655,16 +682,52 @@ input::placeholder {
 
 
 
+    .hebergements-and-populaires {
+        flex-direction: column;
 
 
-
+    }
 
     .hebergements-and-populaires {
         flex-direction: column;
+
+
     }
+
+
+    .hebergements-and-populaires .background-section {
+        background-color: var(--main-bg-color);
+        border-radius: 20px;
+        padding: 30px;
+        box-sizing: border-box;
+    }
+
+
+
+    .hebergements-and-populaires .background-populaires {
+        background-color: var(--main-bg-color);
+        border-radius: 20px;
+        padding-top: 32PX;
+        box-sizing: border-box;
+        padding-bottom: 32Px;
+        padding-right: 0px;
+        padding-left: 0px;
+
+    }
+
+
 
     .hebergements {
         width: 100%;
+
+    }
+
+    .populaires-title {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .populaires {
@@ -675,18 +738,27 @@ input::placeholder {
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
-        gap: 15px;
+
+        justify-content: space-evenly;
+
 
     }
 
+    .populaires-cards .card {
+        display: flex;
+        margin-top: 33px;
+        background-color: white;
+        border-radius: 20px;
+        padding: 0px;
+        width: 100%;
+    }
 
     .populaires-cards a {
-        width: 30%;
+        width: 32%;
     }
 
     .populaires-cards .card-title {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .populaires-cards .card-subtitle {
@@ -694,14 +766,34 @@ input::placeholder {
 
     }
 
+    .populaires-cards .card-content {
+        width: 67%;
+        padding-left: 7px;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding-bottom: 5px;
+    }
+
+
+    .populaires-cards img {
+        width: 35%;
+        height: 136px;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+        object-fit: cover;
+        padding-left: 5px;
+        padding: 5PX;
+        padding-right: 0;
+    }
 
 
 
+    .Activite {
 
-
-
-
-
+        padding-right: 20PX;
+    }
 
     .card-activite img {
         height: 200px;
@@ -717,11 +809,27 @@ input::placeholder {
         object-position: center;
     }
 
+
+
     .container-footer {
-        margin: 0px;
-        padding-right: 20px;
-        margin-top: 30px;
+        display: grid;
+        grid-template-columns: 299px 295px 163px;
+        padding-left: 20PX;
+        margin-top: 35px;
+
     }
+
+    /*
+    .container-footer {
+        display: flex;
+        gap: 8%;
+        padding-left: 20px;
+    }
+   */
+
+
+
+
 
     .container-footer h3 {
 
@@ -951,6 +1059,7 @@ input::placeholder {
 
 
 
+
     .hebergements-and-populaires .populaires {
         margin-bottom: 20px;
         background-color: #F2F2F2;
@@ -983,12 +1092,19 @@ input::placeholder {
     }
 
 
+
+
     .populaires-cards a {
         width: 100%;
 
 
 
     }
+
+
+
+
+
 
 
     .Afficher-plus-section {
@@ -1045,6 +1161,7 @@ input::placeholder {
         flex-direction: column;
         white-space: nowrap;
         margin-left: 20px;
+        padding-top: 30px;
 
 
     }
