@@ -22,23 +22,13 @@
 
 }
 
-.fa-person {
-    margin-right: 10px;
-}
 
-.fa-money-bill-wave {
-    margin-right: 10px;
-
-}
-
-.fa-heart {
-    margin-right: 10px;
-
-}
-
+.fa-money-bill-wave,
+.fa-person,
+.fa-heart,
 .fa-fire {
     margin-right: 10px;
-
+    font-size: 18px;
 }
 
 body {
@@ -291,7 +281,8 @@ input::placeholder {
     padding-bottom: 10PX;
     padding-left: 15px;
     padding-right: 15px;
-
+    font-size: 12px;
+    font-weight: bold;
 
 }
 
@@ -299,7 +290,7 @@ input::placeholder {
 .style-element-filter p {
 
     font-size: 16px;
-    color: red;
+
 
 }
 
@@ -353,7 +344,7 @@ input::placeholder {
 
 
 .card-title {
-    font-size: 16px;
+    font-size: 15px;
     margin-left: 5px;
 
 
@@ -362,7 +353,7 @@ input::placeholder {
 .card-subtitle {
     margin-left: 5px;
     margin-bottom: 5px;
-    font-size: 14px
+    font-size: 13px
 }
 
 
@@ -471,7 +462,7 @@ input::placeholder {
     border-radius: 20px;
     padding: 4px;
 
-    width: 100%;
+
 }
 
 .populaires-cards img {
@@ -486,7 +477,7 @@ input::placeholder {
     width: 67%;
 
     padding-left: 15px;
-
+    padding-right: 8px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
@@ -577,14 +568,15 @@ input::placeholder {
 
 .container-footer {
 
-    display: grid;
 
-    justify-content: flex-start;
-    justify-content: space-between;
-    margin-right: 410px;
-    margin-top: 100px;
+
+    display: flex;
+
+
+    margin-top: 30px;
     padding-left: 20PX;
-    grid-template-columns: 50% 48% 13%;
+    padding-right: 20PX;
+
 }
 
 /*
@@ -602,6 +594,7 @@ input::placeholder {
 .footer-menu {
     display: flex;
     flex-direction: column;
+    flex: auto;
 
 
 
@@ -758,7 +751,8 @@ input::placeholder {
     }
 
     .populaires-cards .card-title {
-        font-size: 16px;
+        font-size: 15px;
+        font-weight: bold;
     }
 
     .populaires-cards .card-subtitle {
@@ -810,7 +804,7 @@ input::placeholder {
     }
 
 
-
+    /*
     .container-footer {
         display: grid;
         grid-template-columns: 299px 295px 163px;
@@ -818,29 +812,28 @@ input::placeholder {
         margin-top: 35px;
 
     }
+*/
 
-    /*
     .container-footer {
         display: flex;
-        gap: 8%;
         padding-left: 20px;
-    }
-   */
-
-
-
-
-
-    .container-footer h3 {
-
-        margin-top: 25px;
-        padding-right: 90px;
-
+        padding-right: 20px;
+        padding-top: 25px;
+        margin: 0;
 
     }
+
+
+
+
+
+
+    .container-footer h3 {}
 
     .footer-menu {
+        flex: 1;
         line-height: 0;
+
     }
 
     .footer-menu ul {
@@ -985,32 +978,30 @@ input::placeholder {
 
     .barre-filter {
         margin-left: 12px;
+        width: auto;
 
     }
+
+
 
     .body-filter {
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 1fr 1fr;
+        margin-left: 20px;
+        row-gap: 20px;
+        column-gap: 10px;
     }
 
     .style-element-filter {
-
+        font-size: 14px;
+        font-weight: bold;
         height: 30px;
-
+        margin: 0;
         padding-right: 0;
         padding-left: 9px;
     }
 
-    .barre-filter a {
-
-        margin-bottom: 16PX;
-        margin-left: 9PX;
-        flex: 1;
-
-
-
-
-    }
+    .barre-filter a {}
 
 
 
@@ -1162,13 +1153,14 @@ input::placeholder {
         white-space: nowrap;
         margin-left: 20px;
         padding-top: 30px;
+        margin-top: 60Px;
 
 
     }
 
 
     .footer-menu {
-        margin-bottom: 15PX;
+        margin-bottom: 35PX;
     }
 
 
