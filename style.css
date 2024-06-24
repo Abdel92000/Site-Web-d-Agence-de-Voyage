@@ -431,11 +431,6 @@ input::placeholder {
     margin-top: 30px;
 }
 
-/*.container-footer {
-	display: flex;
-	gap: 20%;
-}
-*/
 .container-footer h3 {
     margin-left: 0px;
 }
@@ -609,13 +604,6 @@ input::placeholder {
         object-position: center;
     }
 
-    /*.container-footer {
-		display: grid;
-		grid-template-columns: 299px 295px 163px;
-		padding-left: 20PX;
-		margin-top: 35px;
-	}
-	*/
     .container-footer {
         display: flex;
         padding-left: 20px;
@@ -762,8 +750,6 @@ input::placeholder {
         padding-right: 0;
         padding-left: 9px;
     }
-
-    .barre-filter a {}
 
     .title-filter {
         width: 100%;
