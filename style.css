@@ -688,9 +688,6 @@ input::placeholder {
     }
 
     .container-footer {
-        margin-left: -20px;
-        margin-right: -20px;
-        margin-bottom: -20px;
         background-color: #F2F2F2;
     }
 
@@ -762,8 +759,9 @@ input::placeholder {
         height: auto;
         padding: 12px;
         position: absolute;
-        left: 86%;
+        left: 84%;
         box-shadow: 0px 2px 2px 1px rgb(0 0 0 / 23%);
+
     }
 
     .button-rechercher .button-text {
@@ -797,6 +795,7 @@ input::placeholder {
         margin-right: auto;
         row-gap: 20px;
         column-gap: 10px;
+        padding-right: 10px;
     }
 
     .style-element-filter {
