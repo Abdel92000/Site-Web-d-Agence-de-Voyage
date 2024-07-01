@@ -27,6 +27,31 @@
     font-size: 18px;
 }
 
+.fa-location-dot {
+    font-size: 20Px;
+    color: #000000;
+}
+
+.fa-magnifying-glass {
+    font-size: 10px;
+}
+
+
+.fa-info {
+    height: 14px;
+    width: 14px;
+    border-radius: 50%;
+    border: 1px #D9D9D9 solid;
+    padding: 4px;
+    margin-right: 8px;
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 11px;
+}
+
+
 body {
     display: flex;
     flex-direction: column;
@@ -80,11 +105,15 @@ a {
 }
 
 .Vavcance-de-reves h2 {
-    font-size: 17px;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-bottom: 8px;
 }
 
 .Vavcance-de-reves p {
-    font-size: 13px;
+    font-size: 16px;
+    margin-top: 0PX;
+
 }
 
 /****** formulaire de recherche ***********/
@@ -96,9 +125,10 @@ a {
 .barre-rechercher {
     display: flex;
     flex-direction: row;
-    margin-bottom: 20px;
-    height: 44px;
+    margin-bottom: 30px;
+    height: 49px;
     align-items: center;
+    margin-top: 30PX;
 }
 
 form {
@@ -116,9 +146,10 @@ form {
 .container-img-loc {
     display: flex;
     align-items: center;
-    margin-left: 12px;
-    margin-right: 12px;
+    margin-left: 18px;
+    margin-right: 18px;
 }
+
 
 .img-logo-bar-rechercher {
     object-fit: cover;
@@ -132,8 +163,11 @@ input {
     margin-top: 1px;
     margin-bottom: 1px;
     font-weight: bold;
-    padding-left: 15px;
+    font-size: 16PX;
+    padding-left: 24px;
+
 }
+
 
 input::placeholder {
     font-weight: bold;
@@ -144,7 +178,7 @@ input::placeholder {
     background-color: #0065FC;
     border-radius: 0% 15px 15px 0%;
     font-weight: bold;
-    font-size: 13px;
+    font-size: 16px;
     color: white;
     border-width: 0;
     padding: 4px;
@@ -152,8 +186,8 @@ input::placeholder {
     cursor: pointer;
     margin-top: 0%;
     height: 100%;
-    padding-left: 13px;
-    padding-right: 13px;
+    padding-left: 16px;
+
 }
 
 .button-rechercher:active {
@@ -177,10 +211,16 @@ input::placeholder {
     justify-content: flex-start;
     font-weight: bold;
     font-size: 16px;
+    font-size: 16px;
+    margin-bottom: 19px;
 }
+
+
+
 
 .barre-filter p {
     margin-right: 20px;
+    font-size: 18px;
 }
 
 .body-filter {
@@ -190,7 +230,7 @@ input::placeholder {
     align-items: center;
     justify-content: flex-start;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 17px;
 }
 
 .style-element-filter {
@@ -201,12 +241,12 @@ input::placeholder {
     overflow: hidden;
     display: flex;
     flex-direction: row;
-    margin-right: 10px;
+    margin-right: 15px;
     padding-top: 10px;
     padding-bottom: 10PX;
-    padding-left: 15px;
-    padding-right: 15px;
-    font-size: 12px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 16px;
     font-weight: bold;
 }
 
@@ -228,7 +268,8 @@ input::placeholder {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 5px;
+    margin-bottom: 30px;
+
 }
 
 .info-contenair img {
@@ -242,7 +283,7 @@ input::placeholder {
 }
 
 .info-contenair p {
-    font-size: 15px;
+    font-size: 16px;
 }
 
 .section-title {
@@ -462,7 +503,7 @@ input::placeholder {
 @media (max-width: 1024px) {
     .header-container img {
         height: max-content;
-        padding-top: 7px;
+        padding-top: 17px;
     }
 
     .header-nav a {
@@ -518,8 +559,8 @@ input::placeholder {
         padding-top: 32PX;
         box-sizing: border-box;
         padding-bottom: 32Px;
-        padding-right: 0px;
-        padding-left: 0px;
+        padding-right: 30px;
+        padding-left: 30px;
     }
 
     .hebergements {
@@ -530,8 +571,7 @@ input::placeholder {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        margin-left: 10px;
-        margin-right: 10px;
+
     }
 
     .populaires {
@@ -542,8 +582,9 @@ input::placeholder {
     .populaires-cards {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
+
 
     .populaires-cards .card {
         display: flex;
@@ -555,12 +596,13 @@ input::placeholder {
     }
 
     .populaires-cards a {
-        width: 32%;
+        width: 32.5%;
     }
 
     .populaires-cards .card-title {
-        font-size: 15px;
+        font-size: 14px;
         font-weight: bold;
+        margin-top: 15px;
     }
 
     .populaires-cards .card-subtitle {
@@ -569,17 +611,18 @@ input::placeholder {
 
     .populaires-cards .card-content {
 
-        padding-left: 17px;
+        padding-left: 9px;
         box-sizing: border-box;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         padding-bottom: 5px;
+        padding-right: 0;
     }
 
     .populaires-cards img {
-        width: 35%;
-        height: 136px;
+        width: 89px;
+        height: 126px;
         border-top-left-radius: 20px;
         border-bottom-left-radius: 20px;
         object-fit: cover;
@@ -612,7 +655,7 @@ input::placeholder {
         margin: 0;
     }
 
-    .container-footer h3 {}
+
 
     .footer-menu {
         flex: 1;
@@ -638,6 +681,10 @@ input::placeholder {
         margin-right: 10px;
         font-size: 19px;
         margin-left: 5px;
+    }
+
+    .fa-info {
+        margin-left: 10px;
     }
 
     .container-footer {
@@ -689,12 +736,14 @@ input::placeholder {
     .Vavcance-de-reves p {
         margin-top: 0;
         margin-left: 20px;
+        font-size: 15px;
     }
 
     .Vavcance-de-reves h2 {
         margin-bottom: 10px;
         margin-left: 20px;
         font-size: 21PX;
+        margin-top: 0px;
     }
 
     input {
@@ -721,12 +770,19 @@ input::placeholder {
         display: none;
     }
 
+    .fa-magnifying-glass {
+        font-size: 20px;
+        color: white;
+
+    }
+
     .button-rechercher img {
         display: inline-block;
     }
 
     .barre-rechercher {
-        margin-left: 10px;
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .barre-filter {
@@ -737,7 +793,8 @@ input::placeholder {
     .body-filter {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        margin-left: 20px;
+        margin-left: auto;
+        margin-right: auto;
         row-gap: 20px;
         column-gap: 10px;
     }
@@ -753,7 +810,11 @@ input::placeholder {
 
     .title-filter {
         width: 100%;
-        padding-left: 20px;
+
+    }
+
+    .info-contenair p {
+        font-size: 15px;
     }
 
     .annonce-hebergement {
@@ -865,7 +926,8 @@ input::placeholder {
 
 @media (min-width: 1441px) {
     body {
-        max-width: 1444px;
-        border: solid 0px white
+        max-width: 1440px;
+        border: solid 0px white;
+        margin: auto;
     }
 }
